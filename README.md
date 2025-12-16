@@ -40,3 +40,7 @@ This simple Python script is my way of solving this problem. It instantly calcul
 5.  **Enter the Time** in any supported format (e.g., `14:30`, `4:30pm`, `5`).
 
 6.  The **Power Status Result** box will instantly update with the detailed status.
+
+## License
+
+#### [MIT](LICENSE)
