@@ -6,9 +6,9 @@ A simple and quick Python tool to check the electricity availability (power 'ON'
 
 ## 🌟 The Story Behind the Program
 
-In our country, receiving electricity only within certain periods has become a daily reality since 2023. This rotating schedule, which essentially divides consumption into two groups, is disruptive and highly unproductive when making plans.
+In our country, receiving electricity only within certain periods has been since 2023. This rotating schedule, which essentially divides consumption into two groups, is disruptive and highly unproductive when making plans.
 
-This simple Python script is my way of solving this problem. It instantly calculates the expected power status, ensuring you know whether a specific location will have electricity at a given moment.
+This simple Python script is my way of solving this problem. It calculates the expected power status and tells you whether a specific location will have electricity at a given moment.
 
 ## ✨ Features
 
