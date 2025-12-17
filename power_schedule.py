@@ -32,7 +32,7 @@ REFERENCE_PATTERNS = {
 }
 
 def parse_time_input(time_str):
-    # transform time string int0 (hour, minute) in 24-hour format
+    # transform time string into (hour, minute) in 24-hour format
 
     time_str = time_str.strip().lower().replace(".", "")
 
@@ -97,9 +97,8 @@ def check_power_status(group_input, date_input, time_hm):
 
         current_pattern = POWER_PATTERNS[pattern_num]
     
-    is_on = False #What?
+    is_on = False
 
-    # Check the input time against all "ON" time slots in the pattern
     for start_hr, start_min, end_hr, end_min in current_pattern:
         # convert to min
         input_time_in_min = input_hr * 60 + input_min
@@ -117,8 +116,8 @@ def check_power_status(group_input, date_input, time_hm):
     else:
         status = "OUT (Power is not available)"
 
-    # Get the day of the week for a richer response
-    day_of_week = date_input.strftime('%A') #???
+    # Get the day of the week for response
+    day_of_week = date_input.strftime('%A')
 
     return (
         f"--- Power Status Result ---\n"
