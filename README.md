@@ -10,7 +10,7 @@ In our country, receiving electricity only within certain periods has been since
 
 This simple Python script is my way of solving this problem. It calculates the expected power status and tells you whether a specific location will have electricity at a given moment.
 
-## ✨ Features
+## Features
 
   * **Group Status Check:** Determines if power is **ON** or **OUT** for Group A or Group B.
   * **Time Flexibility:** Accepts various time formats (e.g., `'14:30'`, `'4:30pm'`, `'5'`).
@@ -23,7 +23,7 @@ This simple Python script is my way of solving this problem. It calculates the e
   * **`datetime` module**
   * **`re` (Regular Expression) module**
 
-## 🚀 How to Use
+## How to Use
 
 1.  **Save the Python Code:** Save the provided code as a Python file (e.g., `power_schedule.py`).
 
