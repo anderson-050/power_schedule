@@ -1,10 +1,10 @@
-# 💡 power schedule
+# power schedule
 
 A simple and quick Python tool to check the electricity availability (power 'ON' or 'OUT') for specific consumer groups. Just enter the Group, Date, and Time, and get the power status instantly\!
 
 #### [Video Demo](https://youtu.be/FGm4_gQFdPY?si=lUzp5Y38EgdW1MQr)
 
-## 🌟 The Story Behind the Program
+## The Story Behind the Program
 
 In our country, receiving electricity only within certain periods has been since 2023. This rotating schedule, which essentially divides consumption into two groups, is disruptive and highly unproductive when making plans.
 
@@ -17,7 +17,7 @@ This simple Python script is my way of solving this problem. It calculates the e
   * **Date-Based Rotation:** Accurately tracks the schedule rotation based on the days passed since the reference date (28 November 2025).
   * **Sunday Rule:** Incorporates the special, fixed Sunday schedule for all groups.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
   * **Python 3**
   * **`datetime` module**
