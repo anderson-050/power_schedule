@@ -54,7 +54,7 @@ def parse_time_input(time_str):
         return None
     
     # 24-hour format
-    match_24hr = re.match(r'(\d{1,2}):(\d{2})$', time_str)
+    match_24hr = re.match(r'(\d{1,2}):(\d{2})', time_str)
     if match_24hr:
         hr = int(match_24hr.group(1))
         min = int(match_24hr.group(2))
@@ -63,7 +63,7 @@ def parse_time_input(time_str):
         return None
     
     # Simple hour entries(e.g., 5)
-    match_simple = re.match(r'(\d{1,2})$', time_str)
+    match_simple = re.match(r'(\d{1,2})', time_str)
     if match_simple:
         hr = int(match_simple.group(1))
         if 0 <= hr < 24:
