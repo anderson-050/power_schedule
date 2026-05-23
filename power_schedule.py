@@ -5,14 +5,12 @@ import re
 # Times are represented as (start_hour, start_minute, end_hour, end_minute)
 
 POWER_PATTERNS = {
-    # Pattern 1
     1: [
         (5, 0, 9, 0), #5:00 - 9:00
         (13, 0, 17, 0),
         (18, 0, 24, 0),
         (0, 0, 1, 0)
     ],
-    # Pattern 2
     2: [
         (5, 0, 6, 0),
         (9, 0, 13, 0),
