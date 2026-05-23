@@ -1,4 +1,4 @@
-# power schedule
+# Power Schedule
 
 A simple CLI Python tool to check the electricity availability (power 'ON' or 'OUT') for specific consumer groups. Just enter the Group, Date, and Time, and get the power status instantly\!
 
